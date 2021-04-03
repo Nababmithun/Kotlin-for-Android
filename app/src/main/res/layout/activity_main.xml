@@ -9,7 +9,7 @@
 
 
 
-
+ <!-- //Btn click to Textview with TextSet//-->
 
     <Button
         android:id="@+id/btn_hello"
@@ -17,7 +17,6 @@
         android:textSize="17sp"
         android:text="Hello Button"
         android:fontFamily="sans-serif-condensed"
-        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -29,5 +28,22 @@
         android:text="Hello Kotlin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
+
+
+    <!--//Toast Show with button click//-->
+
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Toast"
+        android:layout_margin="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/tv_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
 
 </RelativeLayout>
