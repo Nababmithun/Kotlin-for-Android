@@ -46,4 +46,49 @@
 
 
 
+    //if--else --else if
+
+
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_margin="20dp"
+        android:text="Button one"
+        android:layout_below="@+id/btn_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_below="@+id/btn_one"
+        android:layout_margin="20dp"
+        android:text="button Two"
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Button three"
+        android:layout_below="@+id/btn_two"
+        android:layout_margin="20dp"
+        android:id="@+id/btn_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_below="@+id/btn_three"
+        android:layout_margin="20dp"
+        android:text="button four"
+        android:id="@+id/btn_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/tv_logic"
+        android:layout_below="@+id/btn_four"
+        android:text="Kichu ekta"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 </RelativeLayout>
