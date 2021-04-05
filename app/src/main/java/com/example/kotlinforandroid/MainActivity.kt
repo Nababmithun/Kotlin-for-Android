@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        //btn click with Textview Create
+        //btn click with Textview Create=======================================
         val btnhello = findViewById<Button>(R.id.btn_hello)
         val tvhello =findViewById<TextView>(R.id.tv_hello)
 
@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        //btn click with Toast Show
+        //btn click with Toast Show========================================
         //System one ---------
         val messsage:String="Hi Toast"
         findViewById<Button>(R.id.btn_toast).setOnClickListener { Toast.makeText(this@MainActivity,messsage,Toast.LENGTH_SHORT).show() }
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        //if----else when---else-----------
+        //if----else when---else=====================================
 
         var listener:View.OnClickListener=View.OnClickListener { view ->
 
@@ -58,5 +58,20 @@ class MainActivity : AppCompatActivity() {
         button4.setOnClickListener { listener }
 
 
+        //for loop, while loop, ranges, arrays==========================
+
+        var result =" "
+        for (index in 0..10)
+
+        {
+
+            result+=index.toString() + "\n"
+
+        }
+
+        var eresult=findViewById<TextView>(R.id.control_statement) as TextView
+         eresult.text=result
+
     }
+    
 }
